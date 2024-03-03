@@ -101,17 +101,10 @@ nav {
     padding: 5rem 0 3rem 0;
 }
 
-#profile {
-    max-width: 1400px;
-    margin: 0 auto;
-    background: rgb(232, 232, 232);
-    padding: 5rem 0 3rem 0;
-    background: linear-gradient(133deg, rgba(232, 232, 232, 0.8323923319327731) 8%, rgba(255, 255, 255, 1) 100%);
-}
 
 
-.menu__title,
-.profile__title {
+
+.menu__title{
     text-align: center;
     color: #294B29;
 }
@@ -124,19 +117,7 @@ nav {
     border-top-right-radius: 20px;
 }
 
-.profile__img {
-    height: 180px;
-    width: 58%;
-    align-self: center;
-    border-radius: 20px;
-    border: #294B29 2px solid;
-    margin-top: 1rem;
-    max-width: 180px;
-}
 
-.profile__left {
-    text-align: center;
-}
 
 .menu__card {
     /* margin:2rem; */
@@ -164,29 +145,9 @@ nav {
     margin-top: 0.5rem;
 }
 
-.profile__right {
-    display: none;
-}
 
-.profile__linkedin {
-    background-color: #294B29;
-    color: white;
-    border-radius: 10px;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    text-align: center;
-    border: none;
-    margin-top: 2rem;
-}
 
-.profile__nama,
-.profile__kampus {
-    font-size: 1rem;
-    margin: 0.3rem auto;
-}
-
-.menu__card__button:hover,
-.profile__linkedin:hover {
+.menu__card__button:hover{
     background-color: green;
     /* hex code watsap:#25D366 */
 }
@@ -345,11 +306,6 @@ button {
         margin: 0 auto;
     }
 
-    .main__container {
-        /* max-width: 1200px;
-        margin: 0 auto; */
-        /* background-color: lightgray; */
-    }
 
     .hero__right__img {
         display: block;
